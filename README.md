@@ -21,3 +21,4 @@ Runs as `claude-bot.service` (systemd) on the EC2 instance for auto-restart and 
 
 ## Not in repo
 Secrets (`.claude_env`), database (`aifred.db`), and logs are gitignored.
+# deploy test 2026-06-11T11:46:03+00:00
