@@ -1,0 +1,15 @@
+[Unit]
+Description=Claude Telegram Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu
+EnvironmentFile=/home/ubuntu/.claude_env
+ExecStart=/usr/bin/python3 /home/ubuntu/claude_bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

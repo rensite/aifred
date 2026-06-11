@@ -1,0 +1,23 @@
+# Secrets & environment
+.claude_env
+.env
+*.env
+
+# Data & databases
+*.db
+aifred.db
+
+# Logs
+*.log
+rollup.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Claude local state
+.claude/
+.claude.json
+work/
